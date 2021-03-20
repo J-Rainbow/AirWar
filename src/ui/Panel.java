@@ -26,6 +26,7 @@ public class Panel extends JPanel {
                 if (plane.y <= 0){
                     plane.y = 0;
                 }
+	
                 repaint();//更新
             }
         };

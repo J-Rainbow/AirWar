@@ -26,12 +26,6 @@ public class Panel extends JPanel {
                 if (plane.y <= 0){
                     plane.y = 0;
                 }
-                if (plane.x >= 512){
-                    plane.x = 512;
-                }
-                if (plane.y >= 718){
-                    plane.y = 718;
-                }
                 repaint();//更新
             }
         };

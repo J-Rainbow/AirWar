@@ -14,7 +14,8 @@ import java.util.List;
 public class Panel extends JPanel {
     //背景本身就是一张图
     BufferedImage bg = GetImg.getImg("bg5.jpg");
-    Plane plane = new Plane();
+    //Plane plane = new Plane();
+    Plane plane = Plane.getInstance();
     //EnemyPlane enemyPlane = new EnemyPlane();
     List<EnemyPlane> enemyPlaneList = new ArrayList<EnemyPlane>();
 

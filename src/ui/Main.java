@@ -5,6 +5,7 @@ public class Main {
         Frame frame = new Frame();
         Panel panel = new Panel(frame);
         panel.begin();//生成敌机
+        panel.fireBegin();
         frame.add(panel);
         frame.setVisible(true);
     }

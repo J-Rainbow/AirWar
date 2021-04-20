@@ -29,7 +29,7 @@ public class Panel extends JPanel {
                     fireCreate();
                     fireMove();
                     try {
-                        Thread.sleep(20);
+                        Thread.sleep(10);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -66,8 +66,9 @@ public class Panel extends JPanel {
                 while (true) {
                     epCreate();//创建
                     epMove();//移动
+                    hit();//判断子弹与敌机是否相撞
                     try {
-                        Thread.sleep(10);
+                        Thread.sleep(20);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -75,6 +76,19 @@ public class Panel extends JPanel {
                 }
             }
         }.start();
+    }
+
+    private void hit() {
+        for (int i = 0; i < enemyPlaneList.size(); i++) {
+            EnemyPlane enemyPlane = enemyPlaneList.get(i);
+            for (int j = 0; j < fireList.size(); j++) {
+                Fire fire = fireList.get(j);
+                if (fire.x + fire.image.getWidth() / 4 > enemyPlane.x && fire.x < enemyPlane.image.getWidth() && fire.y + fire.image.getHeight() / 4 > enemyPlane.y && fire.y < enemyPlane.y + enemyPlane.image.getHeight()) {
+                    enemyPlaneList.remove(i);
+                    fireList.remove(j);
+                }
+            }
+        }
     }
 
     //每过20毫秒就往前走10个像素

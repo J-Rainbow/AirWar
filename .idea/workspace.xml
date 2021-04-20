@@ -20,20 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2776d147-f3c3-4b0a-bb50-a6049f1a3400" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ui/Fire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/EnemyPlane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/EnemyPlane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Frame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/GetImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/GetImg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Panel$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Panel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Plane$HolderClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Plane$HolderClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirWar/ui/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirWar/ui/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Panel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +76,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -169,7 +162,7 @@
       <workItem from="1616061265456" duration="206000" />
       <workItem from="1616061585733" duration="127000" />
       <workItem from="1618825523350" duration="3170000" />
-      <workItem from="1618892586986" duration="229000" />
+      <workItem from="1618892586986" duration="1686000" />
     </task>
     <servers />
   </component>
@@ -189,22 +182,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="642" height="178" key="GridCell.Tab.0.bottom" timestamp="1618840224918">
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom" timestamp="1618894131153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="642" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618840224918" />
-    <state width="642" height="178" key="GridCell.Tab.0.center" timestamp="1618840224918">
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618894131153" />
+    <state width="1323" height="195" key="GridCell.Tab.0.center" timestamp="1618894131153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="642" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618840224918" />
-    <state width="642" height="178" key="GridCell.Tab.0.left" timestamp="1618840224918">
+    <state width="1323" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618894131153" />
+    <state width="1323" height="195" key="GridCell.Tab.0.left" timestamp="1618894131153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="642" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618840224918" />
-    <state width="642" height="178" key="GridCell.Tab.0.right" timestamp="1618840224918">
+    <state width="1323" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618894131153" />
+    <state width="1323" height="195" key="GridCell.Tab.0.right" timestamp="1618894131153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="642" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618840224918" />
+    <state width="1323" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618894131153" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1618826007833">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
